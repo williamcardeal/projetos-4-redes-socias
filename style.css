@@ -31,3 +31,30 @@ transform:translate(-50%, -50%) ;
 
 
 }
+iframe#tela{
+    position: relative;
+    top: 82px;
+    left: 22px;
+    width: 266px;
+    height: 470px;
+
+}
+section#redes-sociais{
+    text-align:right;
+}
+
+section#redes-sociais img{ 
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+
+
+}
+section#redes-sociais img:hover{
+    border: 3px solid rgba(0, 0, 0, 0.486);
+    transform: translate(-1px, -5px);
+    transition: transform 0.5s;
+
+}
